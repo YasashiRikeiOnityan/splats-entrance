@@ -5,6 +5,10 @@ nav:
     - "./database/index.md"
     - "./database/user.md"
     - "./database/usergroup.md"
+    - "./database/reservation.md"
+    - "./database/device_unit.md"
+    - "./database/history.md"
+    - "./database/item.md"
 
 theme:
   name: material
