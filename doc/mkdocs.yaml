@@ -1,0 +1,53 @@
+site_name: SPLATS ENTRANCE
+
+nav:
+  - Database:
+    - "./database/index.md"
+    - "./database/user.md"
+    - "./database/usergroup.md"
+
+theme:
+  name: material
+  palette:
+    primary: teal
+  font:
+    text: Noto Sans JP
+    code: Bizin Gothic
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+    - content.code.annotate
+  language: ja
+  custom_dir: overrides
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: false
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+extra:
+  search:
+    language: ja
+  generator: false

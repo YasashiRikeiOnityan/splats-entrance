@@ -1,0 +1,1 @@
+SPLATS ENTRANCEの開発ドキュメントです。
